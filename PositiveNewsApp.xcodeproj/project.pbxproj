@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A3541B74DE02B23AAA1643B /* TuistBundle+PositiveNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99338DB85508A7D15FAF80C /* TuistBundle+PositiveNewsApp.swift */; };
+		6F09CA12AB1D81C1ABF6F6B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6691DF402CBC3593E64AEBE3 /* ContentView.swift */; };
+		84ACE97577F25B6579EFFC20 /* TuistAssets+PositiveNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C1F394695390E0ECA284D1 /* TuistAssets+PositiveNewsApp.swift */; };
+		9B4DCD4266D9B5243E6EF8BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76743A32A80B36EA0E2DBFA /* Preview Assets.xcassets */; };
+		B5EAB1452FA9519243D08D62 /* PositiveNewsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB18708EFA3321B0C63C982 /* PositiveNewsAppTests.swift */; };
+		C14F3EC81E313F303FE4E129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E42829FE5950CD36C25B14 /* Assets.xcassets */; };
+		F19E4D2DF310681461B91031 /* PositiveNewsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA15AEE4FE358B35FBF90F8 /* PositiveNewsAppApp.swift */; };
+		F86E3CDD2ED4F014278C5161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2750CFA486DC5CB0073DF643 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		374D703102ADE9AFA6CDE0E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 985AF48F5DE772457C665B41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27F8DFF8D5FCE5585235F9FC;
+			remoteInfo = PositiveNewsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3723CFE97ED7FA7C8614C2C5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C64E4D9FCD44D6428E2B7884 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0AA15AEE4FE358B35FBF90F8 /* PositiveNewsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveNewsAppApp.swift; sourceTree = "<group>"; };
+		0B411A6E06F0F65F224C7B5E /* PositiveNewsApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PositiveNewsApp-Info.plist"; sourceTree = "<group>"; };
+		0DB18708EFA3321B0C63C982 /* PositiveNewsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveNewsAppTests.swift; sourceTree = "<group>"; };
+		2750CFA486DC5CB0073DF643 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		404025EDEBCA64B3EE4BF5CF /* PositiveNewsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PositiveNewsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6691DF402CBC3593E64AEBE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74C1F394695390E0ECA284D1 /* TuistAssets+PositiveNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+PositiveNewsApp.swift"; sourceTree = "<group>"; };
+		7C045F57E67562660146DB81 /* PositiveNewsAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PositiveNewsAppTests-Info.plist"; sourceTree = "<group>"; };
+		8B44D6511B9821352CA12596 /* PositiveNewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PositiveNewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76743A32A80B36EA0E2DBFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B99338DB85508A7D15FAF80C /* TuistBundle+PositiveNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+PositiveNewsApp.swift"; sourceTree = "<group>"; };
+		C3E42829FE5950CD36C25B14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		353F74525FFD8105877C931A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F74E533FB51922F21D885D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28C3466A1B4C54AEA0C81195 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				C315CBC794D5288F6394C870 /* Derived */,
+				E1894FFFBB395635B75EA23D /* PositiveNewsApp */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		503828A69A8E9565D9926165 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0DB18708EFA3321B0C63C982 /* PositiveNewsAppTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		57E3268F400398C4DDA7E456 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B76743A32A80B36EA0E2DBFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		70B2891D021664B8B1D29D8B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				74C1F394695390E0ECA284D1 /* TuistAssets+PositiveNewsApp.swift */,
+				B99338DB85508A7D15FAF80C /* TuistBundle+PositiveNewsApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A1DAA3017B79245FB52A853E = {
+			isa = PBXGroup;
+			children = (
+				28C3466A1B4C54AEA0C81195 /* Project */,
+				ED63B32669FAED5B02F3C6EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C315CBC794D5288F6394C870 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				F5840DB81DABAF8478BB1178 /* InfoPlists */,
+				70B2891D021664B8B1D29D8B /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		C564448171E37AE543932279 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6691DF402CBC3593E64AEBE3 /* ContentView.swift */,
+				0AA15AEE4FE358B35FBF90F8 /* PositiveNewsAppApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		DA3EB77F69288F0358E3482D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				57E3268F400398C4DDA7E456 /* Preview Content */,
+				C3E42829FE5950CD36C25B14 /* Assets.xcassets */,
+				2750CFA486DC5CB0073DF643 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E1894FFFBB395635B75EA23D /* PositiveNewsApp */ = {
+			isa = PBXGroup;
+			children = (
+				DA3EB77F69288F0358E3482D /* Resources */,
+				C564448171E37AE543932279 /* Sources */,
+				503828A69A8E9565D9926165 /* Tests */,
+			);
+			path = PositiveNewsApp;
+			sourceTree = "<group>";
+		};
+		ED63B32669FAED5B02F3C6EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B44D6511B9821352CA12596 /* PositiveNewsApp.app */,
+				404025EDEBCA64B3EE4BF5CF /* PositiveNewsAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5840DB81DABAF8478BB1178 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				0B411A6E06F0F65F224C7B5E /* PositiveNewsApp-Info.plist */,
+				7C045F57E67562660146DB81 /* PositiveNewsAppTests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27F8DFF8D5FCE5585235F9FC /* PositiveNewsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9886CE864C9CE4E386A82C44 /* Build configuration list for PBXNativeTarget "PositiveNewsApp" */;
+			buildPhases = (
+				1CB51409802FD97CA787638D /* Sources */,
+				00BB2C5298E2E0BE6C49693D /* Resources */,
+				C64E4D9FCD44D6428E2B7884 /* Embed Frameworks */,
+				A8F74E533FB51922F21D885D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PositiveNewsApp;
+			productName = PositiveNewsApp;
+			productReference = 8B44D6511B9821352CA12596 /* PositiveNewsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F964B309DC8B5DDF2177E39 /* PositiveNewsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559918B16654A7FA675A309D /* Build configuration list for PBXNativeTarget "PositiveNewsAppTests" */;
+			buildPhases = (
+				10E016030EBF7A37746E5FD8 /* Sources */,
+				A9E5D27DA2234B510BD51172 /* Resources */,
+				3723CFE97ED7FA7C8614C2C5 /* Embed Frameworks */,
+				353F74525FFD8105877C931A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B559AA056507C34D4E65788 /* PBXTargetDependency */,
+			);
+			name = PositiveNewsAppTests;
+			productName = PositiveNewsAppTests;
+			productReference = 404025EDEBCA64B3EE4BF5CF /* PositiveNewsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		985AF48F5DE772457C665B41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+					4F964B309DC8B5DDF2177E39 = {
+						TestTargetID = 27F8DFF8D5FCE5585235F9FC;
+					};
+				};
+			};
+			buildConfigurationList = 2FA6331877099228391A5589 /* Build configuration list for PBXProject "PositiveNewsApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A1DAA3017B79245FB52A853E;
+			productRefGroup = ED63B32669FAED5B02F3C6EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27F8DFF8D5FCE5585235F9FC /* PositiveNewsApp */,
+				4F964B309DC8B5DDF2177E39 /* PositiveNewsAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00BB2C5298E2E0BE6C49693D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C14F3EC81E313F303FE4E129 /* Assets.xcassets in Resources */,
+				F86E3CDD2ED4F014278C5161 /* LaunchScreen.storyboard in Resources */,
+				9B4DCD4266D9B5243E6EF8BD /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E5D27DA2234B510BD51172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10E016030EBF7A37746E5FD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EAB1452FA9519243D08D62 /* PositiveNewsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB51409802FD97CA787638D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ACE97577F25B6579EFFC20 /* TuistAssets+PositiveNewsApp.swift in Sources */,
+				1A3541B74DE02B23AAA1643B /* TuistBundle+PositiveNewsApp.swift in Sources */,
+				6F09CA12AB1D81C1ABF6F6B1 /* ContentView.swift in Sources */,
+				F19E4D2DF310681461B91031 /* PositiveNewsAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B559AA056507C34D4E65788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PositiveNewsApp;
+			target = 27F8DFF8D5FCE5585235F9FC /* PositiveNewsApp */;
+			targetProxy = 374D703102ADE9AFA6CDE0E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18D0D0FD2B5BFBE894F51F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/PositiveNewsApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.PositiveNewsApp;
+				PRODUCT_NAME = PositiveNewsApp;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A3F2BB2668262A89AC5F739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/PositiveNewsAppTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.PositiveNewsAppTests;
+				PRODUCT_NAME = PositiveNewsAppTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PositiveNewsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PositiveNewsApp";
+				TEST_TARGET_NAME = PositiveNewsApp;
+			};
+			name = Debug;
+		};
+		37E36FD1961E3FBD4D9E9A9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53D010C5317277523362CAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F29DB6B0C1B91FE42A3EF189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/PositiveNewsAppTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.PositiveNewsAppTests;
+				PRODUCT_NAME = PositiveNewsAppTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PositiveNewsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PositiveNewsApp";
+				TEST_TARGET_NAME = PositiveNewsApp;
+			};
+			name = Release;
+		};
+		F7BCAF811524D077ACC87C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/PositiveNewsApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.PositiveNewsApp;
+				PRODUCT_NAME = PositiveNewsApp;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FA6331877099228391A5589 /* Build configuration list for PBXProject "PositiveNewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E36FD1961E3FBD4D9E9A9E /* Debug */,
+				53D010C5317277523362CAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559918B16654A7FA675A309D /* Build configuration list for PBXNativeTarget "PositiveNewsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3F2BB2668262A89AC5F739 /* Debug */,
+				F29DB6B0C1B91FE42A3EF189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9886CE864C9CE4E386A82C44 /* Build configuration list for PBXNativeTarget "PositiveNewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7BCAF811524D077ACC87C50 /* Debug */,
+				18D0D0FD2B5BFBE894F51F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 985AF48F5DE772457C665B41 /* Project object */;
+}
